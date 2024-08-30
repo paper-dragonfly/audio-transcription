@@ -17,6 +17,9 @@ rttm_df = pd.read_csv(rttm_path, delim_whitespace=True, header=None,
                       names=["Type", "File ID", "Channel ID", "Start Time", "Duration", "Orthography Field", 
                              "Speaker Type", "Speaker Name", "Confidence Score", "Signal Lookahead Time"])
 
+map_speakers = {'SPEAKER_00' : 'Kit',
+            'SPEAKER_01': 'Scammer'}
+
 # Initialize a list to store the results
 transcriptions = []
 
@@ -36,10 +39,13 @@ for index, row in rttm_df.iterrows():
     result = model.transcribe("temp_segment.wav")
 
     # Append the transcription and speaker name to the list
-    transcriptions.append({
-        "speaker_name": row["Speaker Name"],
-        "transcription": result["text"]
-    })
+    if transcriptions and (map_speakers[row["Speaker Name"]] == transcriptions[-1]["speaker_name"]):
+        transcriptions[-1]["text"] += result['text']
+    else: 
+        transcriptions.append({
+            "speaker_name": map_speakers[row["Speaker Name"]],
+            "text": result["text"]
+        })
 
 # Save the result to a JSON file
 with open("trans_clips.json", "w") as f:
