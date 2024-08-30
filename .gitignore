@@ -1,0 +1,5 @@
+.venv
+secrets.yaml
+config.yaml
+*.mp3
+*.wav

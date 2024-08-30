@@ -1,0 +1,74 @@
+[
+    {
+        "speaker": "SPEAKER_02",
+        "start": 0.03096875,
+        "end": 0.8240937500000001,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 1.12784375,
+        "end": 3.03471875,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 3.91221875,
+        "end": 5.177843750000001,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 5.886593750000001,
+        "end": 9.396593750000001,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 12.585968750000003,
+        "end": 13.480343750000003,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 14.62784375,
+        "end": 21.41159375,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 21.96846875,
+        "end": 24.11159375,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 22.44096875,
+        "end": 22.96409375,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 25.39409375,
+        "end": 34.42221875,
+        "text": " given some technical issues, we are no longer able to continue with our stream today."
+    },
+    {
+        "speaker": "SPEAKER_00",
+        "start": 32.56596875,
+        "end": 34.05096875,
+        "text": ""
+    },
+    {
+        "speaker": "SPEAKER_01",
+        "start": 34.540343750000005,
+        "end": 44.32784375,
+        "text": " So, what we are doing is, so what we are going to do is we're just going to cancel out the subscription of those services and refund you the money that you paid to us."
+    },
+    {
+        "speaker": "SPEAKER_02",
+        "start": 44.344718750000006,
+        "end": 45.728468750000005,
+        "text": ""
+    }
+]
